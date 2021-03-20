@@ -5,7 +5,7 @@ typedef struct Student{
     int rollno;
     char collegeName[50]
 }studentData;
-
+void getTheData(int*);
 int main(){
     int numberOfStudent = 0;
     studentData* pointToDymanicMemory = NULL;
