@@ -5,3 +5,4 @@ typedef struct Student{
     int rollno;
     char collegeName[50]
 };
+studentData* createTheDynamicMemory(int*);
