@@ -12,3 +12,4 @@ int main(){
     getTheData(&numberOfStudent);
     createTheDynamicMemory(&numberOfStudent);
 }
+studentData* createTheDynamicMemory(int*);
